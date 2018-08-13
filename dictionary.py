@@ -29,3 +29,15 @@ print("Check elements == players, using Equality: {}".format(elements == players
 print("Check elements is players, using Identity: {}".format(elements is players))
 print("Check suplents == players, using Equality: {}".format(suplents == players))
 print("Check suplents is players, using Identity: {}".format(suplents is players))
+
+# Dictonary inside dictionary
+elements = {
+    "Cristiano Ronaldo":
+    {
+        "Speed": 99,
+        "Strenght":99,
+        "Shot": 99
+    }
+}
+
+print(elements["Cristiano Ronaldo"]["Speed"])
